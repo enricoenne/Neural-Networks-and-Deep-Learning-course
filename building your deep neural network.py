@@ -1,8 +1,4 @@
-import time
 import numpy as np
-import h5py
-import matplotlib.pyplot as plt
-import scipy
 from dnn_utils import sigmoid, sigmoid_backward, relu, relu_backward
 
 def initialize_parameters_deep(layer_dims):
